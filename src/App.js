@@ -12,9 +12,9 @@ import NotFound from './components/notFound/NotFound';
 function App() {
 
   const [movies, setMovies] = useState([]);
-  const [movie, setMovie] = useState([]);
+  const [movie, setMovie] = useState();
   const [reviews, setReviews] = useState([]);
- 
+
   const getMovies = async () =>{
     
     try
